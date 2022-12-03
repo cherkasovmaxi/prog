@@ -2,12 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-<<<<<<< HEAD
     <TargetFramework>net7.0</TargetFramework>
-=======
-    <TargetFramework>net6.0</TargetFramework>
->>>>>>> 7c57f4182538a750eecc69e2c1addff992caa668
-    <RootNamespace>C__sem_2_homework_2</RootNamespace>
+    <RootNamespace>C__sem_2_hom_2_2</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
