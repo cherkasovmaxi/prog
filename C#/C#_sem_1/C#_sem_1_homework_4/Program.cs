@@ -6,8 +6,8 @@ Console.WriteLine("Введите число и получите последо�
 
 int n = int.Parse(Console.ReadLine());
 
-int a=1;
-int i=0;
-
-for (i=0 || a=i+1 || a<=n || i++) {(a+i)%2==0};
-Console.WriteLine(a);
+for (int i=1; i<=n; i++)
+{
+    if(i%2==0)
+        Console.WriteLine($"{i}");
+}
