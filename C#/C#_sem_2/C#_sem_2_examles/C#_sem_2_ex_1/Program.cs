@@ -5,7 +5,7 @@ const string helloText = "hello";
 
 bool _isWork = true;
 
-while (_isWork);
+while (_isWork)
 {
     string command = Console.ReadLine();
 
