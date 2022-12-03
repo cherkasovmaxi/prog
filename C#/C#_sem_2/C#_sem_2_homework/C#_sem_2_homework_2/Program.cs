@@ -13,7 +13,7 @@ try
 
       Console.WriteLine($"{str[2]}"); 
 }
-catch
+catchе
 {
     Console.WriteLine ("Третьей цифры нет");
 }
