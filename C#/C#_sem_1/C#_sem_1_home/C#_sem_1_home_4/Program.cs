@@ -5,9 +5,10 @@
 Console.WriteLine("Введите число и получите последовательность четных чисел от 1 до заданного числа");
 
 int n = int.Parse(Console.ReadLine());
+Console.WriteLine("Ниже указана требуемая последовательность");
 
 for (int i=1; i<=n; i++)
 {
-    if(i%2==0)
-        Console.WriteLine(i);
+    if (i % 2 == 0)
+               Console.WriteLine(i);
 }

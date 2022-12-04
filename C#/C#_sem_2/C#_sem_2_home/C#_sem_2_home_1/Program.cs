@@ -6,8 +6,8 @@
 Console.WriteLine("Введите трёхзначное число: ");
 int a= int.Parse(Console.ReadLine());
 int b=0;
-
-b=a%100;
+b =a%100;
 b=b/10;
 
+Console.WriteLine("Ниже указана вторая цифра заданного числа");
 Console.WriteLine(b);

@@ -9,7 +9,8 @@ string a = Console.ReadLine();
 try
 {
     string cut = a.Substring(2,1);
-      Console.WriteLine (cut);  
+    Console.WriteLine("Ниже указана третья цифра заданного числа");
+    Console.WriteLine (cut);  
 }
 catch
 {
