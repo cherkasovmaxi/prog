@@ -3,12 +3,12 @@
 //78 -> третьей цифры нет
 //32679 -> 6
 
-Console.WriteLine ("Введите число и получите третью цифру заданного числа");
-var str = Console.ReadLine();
+Console.WriteLine ("Введите число, нажмите Enter и получите третью цифру заданного числа");
+string a = Console.ReadLine();
 
 try
 {
-    var cut = str.Substring(2,1);
+    string cut = a.Substring(2,1);
       Console.WriteLine (cut);  
 }
 catch
