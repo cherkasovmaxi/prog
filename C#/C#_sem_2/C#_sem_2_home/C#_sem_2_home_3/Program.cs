@@ -5,7 +5,7 @@
 //1 -> нет
 
 Console.WriteLine("Введите число, обозначающее день недели, нажмите Enter и узнайте является ли он выходным");
-int a = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine()!);
 
 if (a>0 && a<6) 
 {
