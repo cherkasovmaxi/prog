@@ -1,13 +1,13 @@
 ﻿
 Console.WriteLine("Введите пятизначное число и нажмите Enter, чтобы узнать является ли оно палиндромом");
-string a = string.Parse(Console.ReadLine()!);
+string a = Console.ReadLine()!;
 
 try
 {
-    var cut1 = a.Substring(0, 1);
-    var cut2 = a.Substring(1, 1);
-    var cut3 = a.Substring(3, 1);
-    var cut4 = a.Substring(4, 1);    
+    string cut1 = a.Substring(0, 1);
+    string cut2 = a.Substring(1, 1);
+    string cut3 = a.Substring(3, 1);
+    string cut4 = a.Substring(4, 1);    
 
 }
 catch
