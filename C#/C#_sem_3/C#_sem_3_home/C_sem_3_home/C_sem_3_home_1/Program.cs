@@ -1,6 +1,6 @@
 ﻿
 Console.WriteLine("Введите пятизначное число и нажмите Enter, чтобы узнать является ли оно палиндромом");
-var a = Console.ReadLine();
+string a = string.Parse(Console.ReadLine()!);
 
 try
 {
