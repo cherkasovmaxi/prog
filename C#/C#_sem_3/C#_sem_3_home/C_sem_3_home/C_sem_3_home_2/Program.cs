@@ -17,7 +17,6 @@ double y2 = double.Parse(Console.ReadLine());
 Console.WriteLine("Введите Z второго числа:");
 double z2 = double.Parse(Console.ReadLine());
 
-double sum = Math.Pow(x2-x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2); //Math.Pow(x, 2) возведение числа x во 2-ю степень
-double ABC = Math.Round(Math.Sqrt(sum), 2); // Math.Round - округление, Math.Sqrt(ab) - квадратный корень из ab
+double ABC = Math.Round(Math.Sqrt(Math.Pow(x2-x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2)), 2); // Math.Round - округление, Math.Sqrt(ab) - квадратный корень из ab
 
 Console.WriteLine(ABC);
